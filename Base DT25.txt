@@ -1,0 +1,40 @@
+ 0      1         2         3         4
+id, choixAmp, choixCab, choixMic, choixVerb
+
+   5       6         7        8       9     10      11       12
+VoiceI, VoiceII, VoiceIII, VoiceIV, TopoI, TopoII, TopoIII, TopoIV,
+
+  13      14      15      16       17       18        19       20      21      22      23      24
+CanalA, CanalB, ClassA, ClassAB, BoostON, BoostOFF, Pentode, Triode, VerbON, VerbOFF, LowON, LowOFF
+
+  25    26    27    28     29     30     31     32     33     34       35
+Drive, Bass, Mid, Treble, Pres, VolCh, Decay, Predel, Tone, MixVerb, VolAmp
+
+rc = db_exec(db_DT25, "CREATE TABLE dt25 (id INTEGER PRIMARY KEY, choixAmp INTERGER, choixCab INTERGER, choixMic INTERGER, choixVerb INTERGER, VoiceI INTEGER, VoiceII INTEGER, VoiceIII INTEGER, VoiceIV INTEGER, TopoI INTERGER, TopoII INTERGER, TopoIII INTERGER, TopoIV INTERGER, CanalA INTERGER, CanalB INTERGER, ClassA INTERGER, ClassAB INTERGER, BoostON INTERGER, BoostOFF INTERGER, Pentode INTERGER, Triode INTERGER, VerbON INTERGER, VerbOFF INTERGER, LowON INTERGER, LowOFF INTERGER, Drive INTERGER, Bass INTERGER, Mid INTERGER, Treble INTERGER, Pres INTERGER, VolCh INTERGER, Decay INTERGER, Predel INTERGER, Tone INTERGER, MixVerb INTERGER, VolAmp INTERGER);");
+
+
+const int ampABold[3][31] = {
+  {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30},
+  {11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11},
+  {91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91}
+};
+
+const int cabAB[3][18] = {
+  {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17},
+  {71, 71, 71, 71, 71, 71, 71, 71, 71, 71, 71, 71, 71, 71, 71, 71, 71, 71},
+  {110, 110, 110, 110, 110, 110, 110, 110, 110, 110, 110, 110, 110, 110, 110, 110, 110, 110}
+};
+
+const int voicing[2][8] = {{0, 1, 2, 3, 4, 5, 6, 7}, {122, 122, 122, 122, 122, 122, 122, 122}};
+
+
+const int classAB[2][2] = {{1, 65}, {73, 115}};
+const int tripentAB[2][2] = {{1, 65}, {75, 116}};
+const int boostAB[2][2] = {{1, 65}, {74, 117}};
+const int lowvol[2][2] = {{1, 65}, {85, 85}};
+
+const int TopoAB[3][4] = {
+  {0, 1, 2, 3},
+  {77, 77, 77, 77},
+  {114, 114, 114, 114}
+};
