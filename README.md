@@ -4,7 +4,7 @@ Version 1.00
 
 Cette application pour ESP32 permet de piloter l'AMPERO II STOMP seul à l'aide de 128 banques de 4 PATCHs + 2 CTRL par son!
 
-Pour cela, j'utilise 6 commutateur au pied, les 4 premiers pour choisir mes 4 PATCHs à piloter sur l'AMPERO et les 2 derniers, pour piloter les CTRl 1 et CTRL 2 par PATCH.
+Pour cela, j'utilise 6 commutateurs au pied, les 4 premiers pour choisir mes 4 PATCHs à piloter sur l'AMPERO et les 2 derniers, pour piloter les CTRl 1 et CTRL 2 par PATCH.
 
 J'ai aussi ajouté 8 écrans OLED pour parfaire la lecture de l'outil.
 
