@@ -8,7 +8,7 @@ Pour cela, j'utilise 6 commutateurs au pied, les 4 premiers pour choisir mes 4 P
 
 J'ai aussi ajouté 8 écrans OLED pour parfaire la lecture de l'outil.
 
-Donc, les 12 STOMPs A1 -> A6 et B1 -> B6 sont pilotables à souhait grâce aux 2 boutons CTRL 1 et CTRL 2! Seuls les STOMPS différents sont piloté! Ce la fonctionne aussi inter-PATCHs. Si sur les boutons 1 et 2 je commande le même patch sur l'AMPERO, alors ce PATCH n'est pas rechargé inutiliment, seuls les STOMPs le sont!
+Donc, les 12 STOMPs A1 -> A6 et B1 -> B6 sont pilotables à souhait grâce aux 2 boutons CTRL 1 et CTRL 2! Seuls les STOMPS différents sont pilotés et commutés! Cela fonctionne aussi inter-PATCHs. Si sur les boutons 1 et 2 je commande le même PATCH sur l'AMPERO, alors ce PATCH n'est pas rechargé inutilement, seuls les STOMPs le sont!
 
 J'ai aussi mis la possibilité, par PATCH/CTRL1/CTRL2 de pouvoir piloter le volume et l'état de la pédale d'EXPression. 3 paramètres pour chacune des configuration sont disponibles!
 
